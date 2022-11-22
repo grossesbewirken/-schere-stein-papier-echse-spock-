@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App{
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.select{
+  margin: 2rem;
+}
+
+.circle{
+  margin: 0.25rem;
+  height: 7vh;
+  width: 7vh;
+  border-radius: 5vh;
+  background-color: rgba(0,0,0,0);
+  color: white
+
 }
